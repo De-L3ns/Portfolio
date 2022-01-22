@@ -1,0 +1,111 @@
+
+/* All around */
+
+h1 {
+    padding: 5px;
+    border-bottom: 5px solid;
+
+}
+
+/* Top navigation */
+
+.navbar-top {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dddddd;
+    border: 5px solid;
+
+}
+
+.navbar-top-main h2 {
+
+    padding: 5px
+    
+}
+
+.navbar-top-left {
+
+    display: inline-block;
+    
+    
+}
+
+.navbar-top-left a {
+
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.sticky {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .container {
+
+    padding-top: 60px;
+
+}
+
+/* Main content  */
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.about {
+    
+    
+    
+}
+
+.projects {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    
+    
+}
+
+.project-info {
+    
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid;
+    
+    
+
+}
+
+.link-wrapper {
+
+    display: flex;
+    column-gap: 5px;
+}
+
+.project-link {
+    
+    flex: 1;
+    border: 1px solid;
+    
+    
+
+}
+
+.contact {
+
+    
+}
