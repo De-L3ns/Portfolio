@@ -4,7 +4,30 @@
 h1 {
     padding: 5px;
     border-bottom: 5px solid;
+    color: #2a4158;
+    font: 30px helvetica bold;
 
+}
+
+h2 {
+    font: 20px helvetica bold;
+    color: white;
+}
+
+a {
+    font: 12px helvetica bold;
+    color: white;
+    
+}
+
+body {
+
+    background-color: white;
+}
+
+p {
+    font: 14px helvetica bold;
+    color: #2a4158;
 }
 
 /* Top navigation */
@@ -14,14 +37,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #dddddd;
+    background-color: #2a4158;
     border: 5px solid;
 
 }
 
 .navbar-top-main h2 {
 
-    padding: 5px
+    padding: 5px;
+    color: white;
+    font: 20px helvetica bold;
     
 }
 
@@ -36,6 +61,7 @@ h1 {
 
     display: inline-block;
     padding: 5px;
+    background-color: 2a4158;
     
 }
 
@@ -60,6 +86,7 @@ h1 {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 
@@ -77,6 +104,12 @@ h1 {
     column-gap: 10px;
     
     
+    
+}
+
+.projects p {
+
+    color: white;
 }
 
 .project-info {
@@ -85,9 +118,8 @@ h1 {
     padding: 5px;
     text-align: center;
     border: 5px solid;
+    background-color: #2a4158;
     
-    
-
 }
 
 .link-wrapper {
@@ -100,12 +132,15 @@ h1 {
     
     flex: 1;
     border: 1px solid;
+    background-color: #2a4158;
+    font: 20px helvetica bold;
+    color: white;
     
     
-
 }
 
 .contact {
 
+    font: 12px helvetica bold;
     
 }
